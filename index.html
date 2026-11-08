@@ -757,6 +757,19 @@ footer {
 
   footer { padding: 32px 20px; }
 }
+
+/* Zuccoli wet season homepage promotion */
+.zuccoli-promo{background:#101810;color:#fff;padding:42px 24px;border-top:5px solid #3aad2e}
+.zuccoli-promo-inner{max-width:1160px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:32px}
+.zuccoli-promo-copy{max-width:790px}
+.zuccoli-promo-kicker{font-family:'Barlow',sans-serif;color:#a9ed85;font-size:13px;font-weight:800;letter-spacing:2px;text-transform:uppercase;margin-bottom:10px}
+.zuccoli-promo h2{font-family:'Barlow Condensed','Barlow',sans-serif;font-weight:900;text-transform:uppercase;font-size:clamp(32px,4.5vw,54px);line-height:1.04;margin:0 0 10px;color:#fff}
+.zuccoli-promo p{font-family:'Barlow',sans-serif;font-size:17px;line-height:1.55;margin:0 0 8px;color:#e6eee4}
+.zuccoli-promo .zuccoli-terms{font-size:12px;color:#c3d0c0;margin:10px 0 0}
+.zuccoli-promo-cta{display:inline-flex;align-items:center;justify-content:center;background:#3aad2e;color:#fff!important;text-decoration:none;font-family:'Barlow',sans-serif;font-weight:800;font-size:16px;padding:17px 25px;border-radius:6px;text-align:center;white-space:nowrap;transition:background .2s,transform .2s}
+.zuccoli-promo-cta:hover{background:#2a8a20;transform:translateY(-2px)}
+@media(max-width:760px){.zuccoli-promo{padding:30px 22px}.zuccoli-promo-inner{flex-direction:column;align-items:stretch;gap:20px}.zuccoli-promo-cta{width:100%;white-space:normal}.zuccoli-promo p{font-size:15px}}
+
 </style>
 </head>
 <body>
@@ -815,6 +828,21 @@ footer {
       </div>
     </div>
   </section>
+
+  <!-- Zuccoli wet season offer: link back to the dedicated subscription landing page -->
+  <aside class="zuccoli-promo" aria-labelledby="zuccoli-promo-title">
+    <div class="zuccoli-promo-inner">
+      <div class="zuccoli-promo-copy">
+        <div class="zuccoli-promo-kicker">Zuccoli wet season special</div>
+        <h2 id="zuccoli-promo-title">Zuccoli, we've got your lawn covered.</h2>
+        <p>Keep your weekends free with scheduled fortnightly Mow, Whip &amp; Blow. Choose a 12 or 16-week direct debit package.</p>
+        <p><strong>Small yards from $66 per week, including GST.</strong></p>
+        <p class="zuccoli-terms">Pricing and package eligibility are subject to property assessment and approval. Direct debit applies.</p>
+      </div>
+      <a class="zuccoli-promo-cta" href="https://yardies.com.au/zuccoli" aria-label="View Zuccoli wet season lawn maintenance packages">View Zuccoli Packages &rarr;</a>
+    </div>
+  </aside>
+
   <section id="services">
   <div class="inner-wrap" style="max-width: 1200px; margin: 0 auto; padding: 0 60px;">
     <div class="section-header">
